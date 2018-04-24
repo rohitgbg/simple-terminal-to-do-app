@@ -1,0 +1,23 @@
+{
+  "name": "note-app",
+  "version": "1.0.0",
+  "description": "Terminal based note app, add notes, view notes and delete notes.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "notes",
+    "to-do",
+    "memos"
+  ],
+  "author": "Rohith GB",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "lodash": "^4.17.5",
+    "nodemon": "^1.17.3",
+    "require": "^2.4.20",
+    "yargs": "^11.0.0"
+  }
+}
